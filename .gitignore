@@ -1,0 +1,11 @@
+# Django and Python ignores
+server/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+server/venv/
+server/.env
+
+# Node.js ignores
+client/node_modules/
+client/.env

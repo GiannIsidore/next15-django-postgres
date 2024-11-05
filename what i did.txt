@@ -1,0 +1,22 @@
+created a folder named SERVER
+NOTE! i did not used virtual environment
+
+pip installed django djangorestframework django-cors-header
+pip install psycopg2 or psycopg
+pip install dotenv
+
+django-admin startproject bookproj
+cd inside the bookproj
+python manage.py startapp api
+
+setup neon postgres in the web
+added the .env details
+changed the db to postgres inside the settings.py
+created urls.py inside the api
+followed the video again for the views.py
+
+create client side
+npx create-next-app@latest
+
+
+for cors error try adding this CORS_ALLOW_ALL_ORIGINS = True inside the settings.py
