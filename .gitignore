@@ -4,7 +4,7 @@ server/__pycache__/
 *.pyo
 *.pyd
 server/venv/
-server/.env
+server/bookproj/bookproj/.env
 
 # Node.js ignores
 client/node_modules/
